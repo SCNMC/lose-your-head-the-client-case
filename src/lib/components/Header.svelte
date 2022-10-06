@@ -23,14 +23,17 @@
 </header>
 
 <style>
+	h1 {
+		font-size: 1.5em;
+	}
 	header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 6em;
-		margin: 1em 2.5em;
+		margin: 0.4em 2.5em;
 		position: relative;
 		border-bottom: 4px solid #000;
+		transition: linear 0.4s;
 	}
 
 	nav {
@@ -58,11 +61,14 @@
 		transform: scale(1.1);
 	}
 
-	@media (min-width: 40em) {
+	@media (min-width: 60em) {
+		header {
+			transition: linear 0.4s;
+			margin: 0.4em 5em;
+		}
 		nav {
 			position: fixed;
 			display: flex;
-			gap: 2em;
 			align-items: center;
 			justify-content: center;
 			flex-direction: column;

@@ -13,7 +13,7 @@
 		viewBox="0 0 100 100"
 		fill="none"
 		stroke="currentColor"
-		stroke-width="5"
+		stroke-width="6"
 		{width}
 	>
 		<path
