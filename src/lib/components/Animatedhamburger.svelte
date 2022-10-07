@@ -49,7 +49,7 @@
 	svg {
 		transition: transform var(--transition-duration);
 		position: relative;
-		z-index: 10;
+		z-index: 1;
 	}
 
 	.top {
