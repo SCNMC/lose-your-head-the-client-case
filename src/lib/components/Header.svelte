@@ -37,7 +37,7 @@
 	}
 
 	nav {
-		position: relative;
+		position: fixed;
 		display: flex;
 		gap: 2em;
 		align-items: center;
