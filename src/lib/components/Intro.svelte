@@ -36,9 +36,9 @@
 		display: flex;
 		flex-direction: column;
 		align-items: start;
-		margin: 0.4em 2.5em;
+		margin: 0.4em 2.5em 2em;
 		padding-top: 1em;
-		padding-bottom: 2em;
+		padding-bottom: 1em;
 		gap: 2em;
 		border-bottom: 4px solid #000;
 	}
