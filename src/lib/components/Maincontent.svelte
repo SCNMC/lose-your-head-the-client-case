@@ -70,7 +70,7 @@
 		align-items: flex-start;
 		padding-top: 1.5em;
 		padding-bottom: 2.5em;
-		gap: 3em;
+		gap: 2em;
 	}
 
 	/* section:hover ul.list-categories {
@@ -80,7 +80,7 @@
 	a {
 		font-weight: 600;
 		font-size: 1.3em;
-		border-bottom: 4px solid #fff021;
+		/* border-bottom: 4px solid #fff021; */
 		padding-bottom: 0.5em;
 	}
 	li {
@@ -88,9 +88,12 @@
 		font-weight: normal;
 		list-style: none;
 	}
-
-	span {
-		border-bottom: 4px solid #000;
+	a::after {
+		content: "";
+		display: block;
+		border-bottom: 4px solid #fff021;
+		padding: 0.3em;
+		width: 100%;
 	}
 
 	/* .list-categories {
@@ -102,4 +105,13 @@
 		overflow: hidden;
 		transition: opacity 500ms ease-in-out;
 	} */
+
+	@media (min-width: 60em) {
+		.main-content {
+			margin: 2em 4em 0em;
+		}
+		.chapters {
+			flex-direction: row;
+		}
+	}
 </style>
