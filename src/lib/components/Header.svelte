@@ -64,7 +64,7 @@
 	@media (min-width: 60em) {
 		header {
 			transition: linear 0.4s;
-			margin: 0.4em 5em;
+			margin: 0.4em 4em;
 		}
 		nav {
 			position: fixed;

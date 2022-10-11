@@ -62,9 +62,9 @@ img {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 1em;
+		gap: 1.5em;
 		border-bottom: 4px solid #000;
-		padding-bottom: 3em;
+		padding-bottom: 2em;
 		margin: 0.4em 2.5em;
 	}
 
@@ -81,22 +81,29 @@ img {
 		color: white;
 	}
 	h2 {
+		transition: 0.4s cubic-bezier(0.4, 0.4, 0, 1);
 		padding-top: 0.2em;
 		font-size: 2.5em;
+		z-index: -2;
 	}
 
 	img {
 		width: 100%;
 		height: auto;
+		z-index: -1;
 	}
-
+	@media (min-width: 40em) {
+		h2 {
+			font-size: 4em;
+		}
+	}
 	@media (min-width: 60em) {
 		section {
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
 			border-bottom: 4px solid #000;
-			padding-bottom: 6em;
+			padding-bottom: 5em;
 			margin: 0.4em 4em;
 		}
 
