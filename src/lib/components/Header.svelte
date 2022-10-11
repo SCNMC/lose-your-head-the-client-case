@@ -14,7 +14,7 @@
 
 	{#if open}
 		<nav transition:fly={{ y: -200, duration: 400 }}>
-			<a href="#">Beoogde leerresultaten</a>
+			<a href="./beoogdeleerresultaten">Beoogde leerresultaten</a>
 			<a href="#">Onderwijsleeromgeving</a>
 			<a href="#">Toetsing</a>
 			<a href="#">Gerealiseerde Leerresultaten</a>
