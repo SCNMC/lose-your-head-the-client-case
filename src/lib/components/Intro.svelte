@@ -1,14 +1,13 @@
 <script>
 	export let introduction;
 	export let introductionTitle;
-	export let image;
 
 	import * as helpers from "@prismicio/helpers";
 </script>
 
 <section class="intro">
 	<div class="intro-info">
-		<h3>Midterm</h3>
+		<h3>{introductionTitle}</h3>
 		<div>
 			{@html helpers.asHTML(introduction)}
 		</div>

@@ -6,11 +6,11 @@
 	import Footer from "$lib/components/Footer.svelte";
 
 	export let data;
-	console.log(data);
 </script>
 
 <Header />
 <Mainhero />
-<Intro introduction={data.document[0].data.introduction} />
+<Intro introductionTitle={"Midterm"} introduction={data.page.introduction} />
+
 <Maincontent />
 <Footer />

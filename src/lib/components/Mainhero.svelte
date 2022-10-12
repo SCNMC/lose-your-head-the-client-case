@@ -12,51 +12,6 @@
 	<p>Currulicum 2022-2024</p>
 </section>
 
-<!-- section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-bottom: 4px solid #000;
-    padding-bottom: 8em;
-    margin: 0.4em 2.5em;
-}
-
-section :nth-child(3) {
-    font-size: 1.1em;
-    font-weight: bold;
-}
-
-p {
-    font-size: 1.1em;
-    margin: 0.5em;
-    padding: 1em 3em;
-    background-color: black;
-    color: white;
-}
-h2 {
-    padding-top: 0.2em;
-    font-size: 6em;
-}
-
-img {
-    position: absolute;
-    padding: 13em 22em;
-    width: 58em;
-    height: 23em;
-} -->
-
-<!-- h2 {
-    font-size: 6em;
-    padding: 0.3em;
-    padding-left: 0.4em;
-}
-
-img {
-    position: absolute;
-    padding: 13.5em 25em;
-    width: 57em;
-    height: 23em;
-} -->
 <style>
 	section {
 		display: flex;
