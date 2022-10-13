@@ -7,6 +7,7 @@
 	import Standard from "$lib/components/Standard.svelte";
 	import StandardChapter from "$lib/components/StandardChapter.svelte";
 	import StandardSection from "$lib/components/StandardSection.svelte";
+	import Backtotop from "../lib/components/Backtotop.svelte";
 
 	export let data;
 	export let standards;
@@ -50,3 +51,4 @@
 
 <!-- <Maincontent /> -->
 <Footer />
+<Backtotop />
