@@ -6,7 +6,7 @@ Dit is een herdesign op de CMD midterm acrreditatie website.
 
 
 
-[Live versie](https://your-tribe-for-life-squad-page.vercel.app/)
+
 
 ## Beschrijving
 
