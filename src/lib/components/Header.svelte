@@ -14,10 +14,10 @@
 
 	{#if open}
 		<nav transition:fly={{ y: -200, duration: 400 }}>
-			<a href="./beoogdeleerresultaten">Beoogde leerresultaten</a>
-			<a href="#">Onderwijsleeromgeving</a>
-			<a href="#">Toetsing</a>
-			<a href="#">Gerealiseerde Leerresultaten</a>
+			<a href="./beoogde-leerresultaten">Beoogde leerresultaten</a>
+			<a href="./onderwijsleeromgeving">Onderwijsleeromgeving</a>
+			<a href="./toetsing">Toetsing</a>
+			<a href="./gerealiseerde-leerresultaten">Gerealiseerde Leerresultaten</a>
 		</nav>
 	{/if}
 </header>
