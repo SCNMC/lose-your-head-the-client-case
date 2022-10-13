@@ -40,6 +40,7 @@
 		bottom: 20px;
 		color: #fff021;
 		background-color: black;
+        font-weight: bold;
 	}
 
     .back-to-top:hover{
