@@ -125,9 +125,42 @@
 
 	/* text left */
 
+	.main-text{
+			margin: 0px;
+			padding:0px;
+			background-color: #F5F5F5;
+		}
+
+	.text-content {
+		margin: 1em 0em;
+		padding:0px;
+		display: flex;
+		flex-direction: row;
+		gap: 5em;
+		border: none;
+		
+	}
+
+	.text > h5{
+			font-size: 1.2em;
+		}
+
+		div {
+			background-color:#fff021;
+			width: 2.5em;
+			height: 2.5em;
+  			border-radius: 50%;
+		}
+
+		div > h4{
+			font-size: 1.2em;
+			text-align: center;
+			padding: auto;
+			margin: 0.4em;
+		}
+
 /* desktop viewport */
 	@media (min-width: 60em) {
-		/* hero */
 		section {
 			display: flex;
 			flex-direction: column;
@@ -136,12 +169,17 @@
 	
 			margin: 4em 5em;
 		}
+		/* hero */
+		.detail{
+			margin-bottom: 0.5em;
+		}
 
 		.detail-hero-heading {
 		z-index: 1;
 		padding-left: 0em;
 		margin-top: -9em;
-		margin-left: 3.5em;
+		margin-left: .5em;
+		margin-bottom: 0.5em;
 		border:none;
 	}
 
@@ -164,6 +202,10 @@
 			font-size: 4em;
 			margin: 0px
 		}
+		.detail-hero-p{
+		margin-top: 0px;
+		margin: 2em 5em;
+		}
 
 		/* text-left */
 		.main-text{
@@ -178,13 +220,17 @@
 		}
 
 		.text-content {
-			margin: 0px;
+			margin: 1em 0em;
 			padding:0px;
 			display: flex;
 			flex-direction: row;
 			gap: 5em;
 			border: none;
 			
+		}
+
+		 .text > h5{
+			font-size: 1.2em;
 		}
 
 		div {
