@@ -183,7 +183,7 @@
 			display: flex;
 			flex-direction: row;
 			gap: 5em;
-			border-bottom: 4px solid #000;
+			border: none;
 			
 		}
 
