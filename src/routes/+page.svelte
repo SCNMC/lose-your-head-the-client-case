@@ -33,21 +33,5 @@
 		</Standard>
 	{/each}
 </StandardSection>
-
-<!-- <StandardSection>
-	{#each data.standards as standard}
-		<Standard
-			standardTitle={`${standard?.standardnumber}.0 ${standard.title} `}
-		>
-			{#each standard.chapters as chapter, i}
-				<StandardChapter>
-					chapterTitle={`${standard.standardnumber}.${i + 1} ${chapter.title}`}
-				</StandardChapter>
-			{/each}
-		</Standard>
-	{/each}
-</StandardSection> -->
-
-<!-- <Maincontent /> -->
 <Footer />
 <Backtotop />
