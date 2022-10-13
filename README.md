@@ -1,38 +1,40 @@
-# create-svelte
+## CMD midterm
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Dit is een herdesign op de CMD midterm acrreditatie website.
 
-## Creating a project
+<img width="1436" alt="Schermafbeelding 2022-10-13 om 18 26 02" src="https://user-images.githubusercontent.com/90189750/195652668-efcf0c6a-6fa2-4674-a416-64138cd0e993.png">
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Beschrijving
 
-```bash
-npm run dev
+* HTML
+* CSS
+* JS
+* SvelteKit
+* Prismic.io
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Installatie
 
-## Building
+1. Clone of download deze repository
+2. Ga naar de root directory van het project.
+3. Gebruik `npm install` om de gebruikte dev dependencies en packages te installeren.
+4. Gebruik `npm run dev` om de web-server te starten. Deze is standaard bereikbar op poort `5173`.
 
-To create a production version of your app:
+## Bronnen
 
-```bash
-npm run build
-```
+[SvelteKit Docs](https://kit.svelte.dev/docs/introduction)
+<br>
+[Prismic Docs](https://prismic.io/docs/technologies/svelte)
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+
+## Licentie
+
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE).
