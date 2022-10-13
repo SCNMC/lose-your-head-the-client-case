@@ -43,7 +43,7 @@
 	}
 
 	img {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
 		z-index: -1;
 	}
@@ -52,6 +52,7 @@
 			font-size: 4em;
 		}
 	}
+
 	@media (min-width: 60em) {
 		section {
 			display: flex;
@@ -75,11 +76,13 @@
 			color: white;
 		}
 
-		img {
+		section > img {
+			display: flex;
+			align-items: end;
+			justify-content: space-evenly;
 			position: absolute;
-			top: 39%;
-			left: 30%;
-			width: 65%;
+			margin: 13em 21em;
+			width: 67%;
 			height: 25em;
 		}
 
