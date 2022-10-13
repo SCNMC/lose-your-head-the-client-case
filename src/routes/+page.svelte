@@ -10,6 +10,7 @@
 
 	export let data;
 	export let standards;
+	export let page;
 </script>
 
 <Header />
@@ -24,7 +25,9 @@
 		>
 			{#each standard.chapters as chapter, i}
 				<StandardChapter
-					chapterTitle={`${standard.standardnumber}.0${i + 1} ${chapter.title}`}
+					chapterTitle={`${standard.standardnumber}.0${i + 1} ${
+						chapter.data.title
+					}`}
 				/>
 			{/each}
 		</Standard>
