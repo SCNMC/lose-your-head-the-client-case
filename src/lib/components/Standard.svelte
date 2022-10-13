@@ -20,6 +20,8 @@
 		font-weight: bold;
 		transition: 0.1s ease-in-out;
 		padding-top: 1.5em;
+		padding-bottom: 0.5em;
+		border-bottom: 4px solid #fff021;
 	}
 
 	section a:hover {

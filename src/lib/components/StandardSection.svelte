@@ -19,6 +19,7 @@
 		div {
 			flex-direction: row;
 			margin: 2em 4em 0em;
+			gap: 2em;
 		}
 	}
 

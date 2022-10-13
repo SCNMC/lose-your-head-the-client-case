@@ -7,9 +7,10 @@
 	import Standard from "$lib/components/Standard.svelte";
 	import StandardChapter from "$lib/components/StandardChapter.svelte";
 	import StandardSection from "$lib/components/StandardSection.svelte";
-
+	import Backtotop from "../lib/components/Backtotop.svelte";
 	export let data;
 	export let standards;
+	export let page;
 </script>
 
 <Header />
@@ -24,26 +25,13 @@
 		>
 			{#each standard.chapters as chapter, i}
 				<StandardChapter
-					chapterTitle={`${standard.standardnumber}.0${i + 1} ${chapter.title}`}
+					chapterTitle={`${standard.standardnumber}.0${i + 1} ${
+						chapter.data.title
+					}`}
 				/>
 			{/each}
 		</Standard>
 	{/each}
 </StandardSection>
-
-<!-- <StandardSection>
-	{#each data.standards as standard}
-		<Standard
-			standardTitle={`${standard?.standardnumber}.0 ${standard.title} `}
-		>
-			{#each standard.chapters as chapter, i}
-				<StandardChapter>
-					chapterTitle={`${standard.standardnumber}.${i + 1} ${chapter.title}`}
-				</StandardChapter>
-			{/each}
-		</Standard>
-	{/each}
-</StandardSection> -->
-
-<!-- <Maincontent /> -->
 <Footer />
+<Backtotop />
