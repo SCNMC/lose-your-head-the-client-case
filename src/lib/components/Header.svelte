@@ -14,10 +14,12 @@
 
 	{#if open}
 		<nav transition:fly={{ y: -200, duration: 400 }}>
-			<a href="./beoogde-leerresultaten">Beoogde leerresultaten</a>
-			<a href="./onderwijsleeromgeving">Onderwijsleeromgeving</a>
-			<a href="./toetsing">Toetsing</a>
-			<a href="./gerealiseerde-leerresultaten">Gerealiseerde Leerresultaten</a>
+			<a transition:fly={{x:700, duration:1100}} href="./beoogde-leerresultaten">1.0 Beoogde leerresultaten</a>
+			<a transition:fly={{x:-700, duration:1100}} href="./onderwijsleeromgeving">2.0 Onderwijsleeromgeving</a>
+			<a transition:fly={{x: 700, duration:1100}}  href="./toetsing">3.0 Toetsing</a>
+			<a transition:fly={{x:-700, duration:1100}}  href="./gerealiseerde-leerresultaten"
+				>4.0 Gerealiseerde Leerresultaten</a
+			>
 		</nav>
 	{/if}
 </header>
@@ -51,14 +53,16 @@
 	}
 
 	nav > a {
-		font-size: 2em;
+		font-size: 1.5em;
 		text-decoration: none;
 		color: white;
+		transition: all 0.2s ease-in-out;
 	}
 
 	nav :hover {
-		transition: linear 0.2s;
-		transform: scale(1.1);
+		box-shadow: inset 17em 0 0 0 #fff021;
+		transition: inset 6s;
+		color: black;
 	}
 
 	@media (min-width: 60em) {
