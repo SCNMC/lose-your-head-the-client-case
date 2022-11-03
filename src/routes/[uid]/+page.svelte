@@ -1,8 +1,8 @@
 <script>
     import Header from "$lib/components/Header.svelte";
 	import ChapterSection from "$lib/components/DetailComponents/ChapterSection.svelte";
-	import ChapterContentLeft from "$lib/components/DetailComponents/ChapterContentLeft.svelte";
-	import ChapterContentRight from "$lib/components/DetailComponents/ChapterContentRight.svelte";
+	import ChapterContentleft from "$lib/components/DetailComponents/ChapterContentleft.svelte";
+	import ChapterContentright from "$lib/components/DetailComponents/ChapterContentright.svelte";
 	import StandardHero from "$lib/components/DetailComponents/StandardHero.svelte";
 
 
@@ -22,7 +22,7 @@
 			chapterNumber={`${data.standard.data.standardnumber}.${i + 1}`}
 			chapterUID={chapter.uid}
 		>
-			<ChapterContentLeft contentLeft={chapter.data.contentleft} />
-			<ChapterContentRight contentRight={chapter.data.contentright} />
+			<ChapterContentleft contentLeft={chapter.data.contentleft} />
+			<ChapterContentright contentRight={chapter.data.contentright} />
 		</ChapterSection>
 	{/each}
