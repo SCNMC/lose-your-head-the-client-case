@@ -9,7 +9,7 @@
 </script>
 
 <header>
-	<h1>CMD Mid-term </h1>
+	<a href="/"><h1>CMD Mid-term </h1></a>
 	<Animatedhamburger {open} {onClick} />
 
 	{#if open}
