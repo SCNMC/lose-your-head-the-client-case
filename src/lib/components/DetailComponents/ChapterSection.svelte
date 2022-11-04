@@ -17,13 +17,14 @@
   
   <style>
     hr.new4 {
-      border: 1px solid rgb(0, 0, 0);
+      border: 2px solid rgb(0, 0, 0);
       background-color: black;
     }
     section {
       padding: 1rem;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       /* align-items: flex-start; */
       background-color: white;
       text-align: center;
@@ -38,8 +39,11 @@
     }
   
     section span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
         font-size: 1.2em;
-			text-align: center;
+			/* text-align: center; */
 			padding: auto;
 			margin: 0.4em;
       background-color:#fff021;
