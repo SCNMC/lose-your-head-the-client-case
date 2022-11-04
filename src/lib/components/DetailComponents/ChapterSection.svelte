@@ -5,8 +5,10 @@
   </script>
   
   <section class="chapter" id={chapterUID}>
-    <span>{chapterNumber}</span>
-    <h2>{chapterTitle}</h2>
+    <span>
+      <h3>{chapterNumber}</h3>
+    </span>
+    <h4>{chapterTitle}</h4>
     <div class="content">
       <slot />
       <hr class="new4" />
@@ -27,7 +29,7 @@
       
     }
   
-    section h2 {
+    span h3 {
       padding: 0.25rem;
       margin-bottom: 1rem;
       font-size: 1.3rem;
@@ -39,10 +41,11 @@
 			text-align: center;
 			padding: auto;
 			margin: 0.4em;
-            background-color:#fff021;
+      background-color:#fff021;
 			width: 2.5em;
 			height: 2.5em;
   			border-radius: 50%;
+ 
     }
   
     div {
@@ -64,5 +67,31 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
       }
+
+      span {
+			background-color:#fff021;
+			width: 2.5em;
+			height: 2.5em;
+  			border-radius: 50%;
+		}
+
+		span > h3{
+			font-size: 1em;
+			text-align: center;
+			padding: auto;
+			margin: 0.4em;
+		}
+    .chapter > h4{
+      text-align: left;
+    
+      font-size: 2em;
+      margin-bottom: 1em;
+
+    }
+    .content {
+      font-size: 0.75em;
+    
+      text-align: left;
+    }
     }
   </style>

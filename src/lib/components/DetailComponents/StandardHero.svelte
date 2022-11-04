@@ -33,6 +33,8 @@
             padding: 0em;
             margin-left: 0em;
             margin-top: -5em;
+            text-align: left;
+    
         }
         
     
@@ -53,7 +55,8 @@
             width: 100%;
             height: auto;
         }
-    
+        
+       
     
     /* desktop viewport */
         @media (min-width: 60em) {
