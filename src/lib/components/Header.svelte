@@ -34,6 +34,7 @@
 		position: relative;
 		border-bottom: 4px solid #000;
 		transition: linear 0.4s;
+		z-index: 2;
 	}
 
 	nav {
