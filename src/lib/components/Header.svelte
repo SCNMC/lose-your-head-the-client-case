@@ -9,7 +9,7 @@
 </script>
 
 <header>
-	<h1>CMD Mid-term </h1>
+	<a href="/"><h1>CMD Mid-term </h1></a>
 	<Animatedhamburger {open} {onClick} />
 
 	{#if open}
@@ -36,6 +36,7 @@
 		position: relative;
 		border-bottom: 4px solid #000;
 		transition: linear 0.4s;
+		z-index: 2;
 	}
 
 	nav {
