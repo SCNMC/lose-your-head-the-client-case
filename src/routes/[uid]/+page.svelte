@@ -4,6 +4,7 @@
 	import ChapterContentleft from "$lib/components/DetailComponents/ChapterContentleft.svelte";
 	import ChapterContentright from "$lib/components/DetailComponents/ChapterContentright.svelte";
 	import StandardHero from "$lib/components/DetailComponents/StandardHero.svelte";
+	import Footer from "$lib/components/Footer.svelte";
 
 
 	export let data;
@@ -26,3 +27,4 @@
 			<ChapterContentright contentRight={chapter.data.contentright} />
 		</ChapterSection>
 	{/each}
+	<Footer/>

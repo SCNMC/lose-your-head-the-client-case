@@ -14,10 +14,10 @@
 
 	{#if open}
 		<nav transition:fly={{ y: -200, duration: 400 }}>
-			<a transition:fly={{x:700, duration:1100}} href="./beoogde-leerresultaten">1.0 Beoogde leerresultaten</a>
-			<a transition:fly={{x:-700, duration:1100}} href="./onderwijsleeromgeving">2.0 Onderwijsleeromgeving</a>
-			<a transition:fly={{x: 700, duration:1100}}  href="./toetsing">3.0 Toetsing</a>
-			<a transition:fly={{x:-700, duration:1100}}  href="./gerealiseerde-leerresultaten"
+			<a transition:fly={{y:-1000, duration:1100}} href="./beoogde-leerresultaten">1.0 Beoogde leerresultaten</a>
+			<a transition:fly={{y:-800, duration:1100}} href="./onderwijsleeromgeving">2.0 Onderwijsleeromgeving</a>
+			<a transition:fly={{y:- 600, duration:1100}}  href="./toetsing">3.0 Toetsing</a>
+			<a transition:fly={{y:-400, duration:1100}}  href="./gerealiseerde-leerresultaten"
 				>4.0 Gerealiseerde Leerresultaten</a
 			>
 		</nav>

@@ -16,7 +16,6 @@
       margin-bottom: 1rem;
       text-align: left;     
       font-size:medium;
-
     }
-  
+
   </style>

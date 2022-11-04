@@ -36,9 +36,6 @@
             text-align: left;
     
         }
-        
-    
-        
          h2 {
             background-color: #fff021;
             border-top-right-radius: 15px;
@@ -80,7 +77,7 @@
         }
     
                     
-            .detail-hero-img {
+            .detail-hero-img{
                 width: 100%;
                 height: 25em;
                 object-fit: cover;
@@ -104,6 +101,7 @@
             font-weight: bold;
             margin-top: 0px;
             margin: .4em 2.7em;
+            padding-bottom: 1em;
             }
         }
     </style>
