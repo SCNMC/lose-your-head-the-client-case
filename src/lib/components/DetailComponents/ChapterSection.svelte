@@ -45,11 +45,12 @@
         font-size: 1.2em;
 			/* text-align: center; */
 			padding: auto;
-			margin: 0.4em;
+			/* margin: 0.4em; */
       background-color:#fff021;
 			width: 2.5em;
 			height: 2.5em;
   			border-radius: 50%;
+        margin-bottom: 1em;
  
     }
   
