@@ -5,7 +5,7 @@
   </script>
   
   <div>
-    <h1>{@html helpers.asHTML(contentLeft)}</h1>
+   {@html helpers.asHTML(contentLeft)}
   </div>
   
   <style>
@@ -15,6 +15,7 @@
       flex-direction: column;
       margin-bottom: 1rem;
       text-align: left;     
+      font-size:medium;
 
     }
   

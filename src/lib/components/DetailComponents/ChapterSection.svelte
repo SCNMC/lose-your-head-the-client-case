@@ -18,6 +18,7 @@
   <style>
     hr.new4 {
       border: 1px solid rgb(0, 0, 0);
+      background-color: black;
     }
     section {
       padding: 1rem;
