@@ -5,6 +5,7 @@
 	import ChapterContentright from "$lib/components/DetailComponents/ChapterContentright.svelte";
 	import StandardHero from "$lib/components/DetailComponents/StandardHero.svelte";
 	import Footer from "$lib/components/Footer.svelte";
+	import Backtotop from "../../lib/components/Backtotop.svelte";
 
 
 	export let data;
@@ -28,3 +29,4 @@
 		</ChapterSection>
 	{/each}
 	<Footer/>
+	<Backtotop/>
