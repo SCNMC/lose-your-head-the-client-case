@@ -7,7 +7,7 @@ Dit is een herdesign op de CMD midterm acrreditatie website.
 
 
 
-[Wiki]()
+[Wiki](https://github.com/SCNMC/lose-your-head-the-client-case/wiki)
 ## Beschrijving
 
 * HTML
